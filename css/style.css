@@ -133,8 +133,83 @@ img {
 
 /* NAVBAR end*/
 
+/* CAROUSEL START*/
 .carousel {
     position: relative;
+}
+
+.carousel-caption {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textCarousel{
+    color: var(--second-color);
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+}
+
+.carousel-caption h4 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        height: 200px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption h4 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 768px) {
+    .carousel-caption {
+        height: 300px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption h4 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h4 {
+        font-size: 0.875rem;
+    }
+
+    .carousel-caption .btn {
+        padding: 0.5rem 1rem;
+    }
+    .carousel-caption{
+        margin-bottom: -20px;
+    }
 }
 
 .carousel.pointer-event {
@@ -162,3 +237,5 @@ img {
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
 }
+
+/* CAROUSEL END*/
