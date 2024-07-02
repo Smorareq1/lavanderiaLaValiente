@@ -139,7 +139,7 @@ img {
 }
 
 .carousel-caption {
-    height: 300px;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +148,12 @@ img {
 
 .textCarousel{
     color: var(--second-color);
+}
+
+.carousel-caption .btn{
+    background-color: var(--second-color);
+    border-color: white;
+    color: var(--title-color);
 }
 
 .carousel-caption h1 {
