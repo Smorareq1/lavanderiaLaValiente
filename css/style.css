@@ -9,12 +9,12 @@
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
     --first-color: #cc3399;
-    --first-color-alt: hsl(184, 60%, 47%);
+    --second-color: hsl(184, 60%, 47%);
     --title-color: hsl(19, 16%, 15%);
     --text-color: hsl(19, 16%, 35%);
     --text-color-light: hsl(19, 8%, 55%);
     --body-color: hsl(19, 100%, 96%);
-    --container-color: hsl(19, 100%, 97%);
+    --container-color: white;
 
     /*CARDS*/
     --body-gradient: linear-gradient(90deg, hsl(184, 100%, 84%), hsl(184, 100%, 80%));
@@ -102,10 +102,10 @@ img {
 
 /* Estilo para los enlaces dentro de .icons */
 .icons a {
-    color: #ffffff; /* Color de texto blanco */
-    padding: 0 12px; /* Espaciado horizontal */
-    text-decoration: none; /* Sin subrayado */
-    transition: color 0.3s ease; /* Transición suave para cambio de color */
+    color: #ffffff;
+    padding: 0 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .icons i:hover {
@@ -117,8 +117,59 @@ img {
 }
 /* TOP BAR end*/
 
-/* NAVBAR end*/
-.navBar{
+/* NAVBAR start*/
+.navbar{
     background-color: white;
+    margin-top: -10px;
+    margin-bottom: -45px;
 }
+
+.container-lg{
+    z-index: 9;
+}
+
+.navbar-toggler{
+    margin-right: 25px;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    max-width: 150px;
+    margin-left: 25px;
+}
+
+.navbar-collapse a{
+    margin: 0 auto;
+}
+
 /* NAVBAR end*/
+
+.carousel {
+    position: relative;
+}
+
+.carousel.pointer-event {
+    touch-action: pan-y;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
