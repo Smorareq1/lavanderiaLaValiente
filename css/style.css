@@ -113,6 +113,10 @@ img {
     margin-bottom: -45px;
 }
 
+.navbar-nav{
+    margin-left: auto;
+}
+
 .container-lg{
     z-index: 9;
 }
@@ -147,7 +151,8 @@ img {
 }
 
 .textCarousel{
-    color: var(--second-color);
+    color: var(--first-color);
+    font-weight: bold;
 }
 
 .carousel-caption .btn{
