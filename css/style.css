@@ -161,6 +161,14 @@ img {
     color: var(--title-color);
 }
 
+.btn-carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+
 .carousel-caption h1 {
     font-size: 3rem;
 }
@@ -248,5 +256,36 @@ img {
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
 }
-
 /* CAROUSEL END*/
+
+/* Contact info Start*/
+.custom-padding {
+    padding: 0 30px;
+}
+
+.custom-height {
+    height: 100px;
+}
+
+.flex-column{
+    margin-left: 10px;
+}
+
+.contact-esquinas{
+    background-color: var(--second-color);
+}
+
+.contact-center{
+    background-color: var(--first-color);
+}
+
+@media (min-width: 768px) {
+    .contact-info {
+        position: relative;
+        margin-top: -100px !important;
+        z-index: 1;
+    }
+
+}
+
+/* Contact info end*/
