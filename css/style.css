@@ -289,3 +289,16 @@ img {
 }
 
 /* Contact info end*/
+
+/* Quienes somos START*/
+.quienes-somos-item{
+    gap: 10px;
+}
+
+/* Quienes somos END*/
+
+/* Servicios Start*/
+.servicios-icon{
+    color: var(--second-color);
+}
+/* Servicios END*/
