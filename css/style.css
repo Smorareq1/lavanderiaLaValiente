@@ -106,6 +106,20 @@ img {
 }
 /* TOP BAR end*/
 
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ajusta según sea necesario */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.scroll-up {
+    transform: translateY(0);
+}
+
+.scroll-down {
+    transform: translateY(-100%);
+}
 /* NAVBAR start*/
 .navbar{
     background-color: white;
