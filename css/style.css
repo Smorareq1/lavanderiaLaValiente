@@ -336,5 +336,24 @@ img {
     border-radius: 20px;
 }
 
+/*Footer start */
+.footer{
+    background-color: var(--first-color);
+}
+
+.footer h1{
+    color: var(--second-color);
+}
+
+.footer-contactanos-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Añade espacio entre el ícono y el texto */
+}
+
+.footer-btn{
+    background-color: var(--second-color);
+}
+
 
 
