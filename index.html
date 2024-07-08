@@ -49,7 +49,7 @@
                 <a class="text-white px-3" href="">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a class="text-white px-3" href="https://wa.me/qr/XGWLESOTRG25M1 " target="_blank" title="Whatsapp">
+                <a class="text-white px-3" href="https://wa.me/50252073119" target="_blank" title="Whatsapp">
                     <i class="fab fa-whatsapp"></i>
                 </a>
                 <a class="text-white px-3" href="waze://?ll=14.64323,-90.56078&navigate=yes" target="_blank" title="Whatsapp">
@@ -75,11 +75,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="#" class="nav-item nav-link active">Inicio</a>
-                    <a href="#" class="nav-item nav-link">¿Quiénes somos?</a>
-                    <a href="#" class="nav-item nav-link">Servicios</a>
-                    <a href="#" class="nav-item nav-link">Contáctanos</a>
-                    <a href="#" class="nav-item nav-link">Ubicación</a>
+                    <a href="#carousel" class="nav-item nav-link active">Inicio</a>
+                    <a href="#quienes-somos" class="nav-item nav-link">¿Quiénes somos?</a>
+                    <a href="#servicios" class="nav-item nav-link">Servicios</a>
+                    <a href="#contactanos" class="nav-item nav-link">Contáctanos</a>
+                    <a href="#ubicacion" class="nav-item nav-link">Ubicación</a>
                 </div>
             </div>
         </nav>
@@ -89,7 +89,7 @@
 <!-- Navbar End -->
 
 <!-- Carousel Start -->
-<section class="carousel">
+<section class="carousel" id="carousel">
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -131,7 +131,7 @@
 <!-- Carousel End -->
 
 <!-- Contact Info Start -->
-<section class="info-contact">
+<section class="info-contact" id="contactanos">
     <div class="container-fluid contact-info mt-5 mb-4">
         <div class="container custom-padding">
             <div class="row">
@@ -174,7 +174,7 @@
 <!-- Contact info End -->
 
 <!-- Quienes somos start -->
-<section class="quienes-somos">
+<section class="quienes-somos" id="quienes-somos">
     <div class="container-fluid py-5">
         <div class="container pt-0 pt-lg-4">
             <div class="row align-items-center">
@@ -220,7 +220,7 @@
 <!-- Quienes somos End -->
 
 <!-- Servicios start -->
-<section class="servicios">
+<section class="servicios" id="servicios">
     <div class="container-fluid pt-5 pb-3">
         <div class="container">
             <h6 class="servicios-icon text-uppercase text-center font-weight-medium mb-3">Nuestros Servicios</h6>
@@ -310,18 +310,19 @@
 <!-- Como funcionamos End -->
 
 <!-- Ubicacion start -->
-<section class="ubicacion">
+<section class="ubicacion" id="ubicacion">
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row">
-
-                <h6 class="servicios-icon text-uppercase text-center font-weight-medium mb-3">Encuéntranos</h6>
-                <h1 class="display-4 text-center mb-5">UBICACIÓN</h1>
-
-                <div class="col-lg-6 image1">
-                    <img src="img/AboutImage.png" alt="" class="img-fluid">
+                <div class="col-12">
+                    <h6 class="servicios-icon text-uppercase text-center font-weight-medium mb-3">Encuéntranos</h6>
+                    <h1 class="display-4 text-center mb-5">UBICACIÓN</h1>
                 </div>
-                <div class="col-lg-6 map">
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <img src="img/ubicacionLavanderia.png" alt="Imagen de ubicacion de Lavanderia" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12">
                     <div class="map-area">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15380.940909948164!2d-90.3851589!3d15.4717744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858a470076b2d995%3A0xa042c6543fa83346!2sLa%20Valiente%20Coban!5e0!3m2!1ses!2sgt!4v1720327636035!5m2!1ses!2sgt"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -331,12 +332,10 @@
         </div>
     </div>
 </section>
-
-
 <!-- Ubicacion end -->
 
 <!-- Footer Start -->
-<section class="footer">
+<section class="footer" hidden="hidden">
     <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
