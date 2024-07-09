@@ -31,6 +31,14 @@
         return false;
     });
 
+    //Whatsapp
+    $('#myDiv').floatingWhatsApp({
+        phone: '50248152964',
+        popupMessage: 'Buenos dias, como podemos ayudarlo?',
+        showPopup: true,
+        position: 'right'
+    });
+
 })(jQuery);
 
 
