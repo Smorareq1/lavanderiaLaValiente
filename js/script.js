@@ -33,8 +33,8 @@
 
     //Whatsapp
     $('#myDiv').floatingWhatsApp({
-        phone: '50248152964',
-        popupMessage: 'Buenos dias, como podemos ayudarlo?',
+        phone: '50252073119',
+        popupMessage: 'Buenos dias, como podemos ayudarle?',
         showPopup: true,
         position: 'right'
     });
