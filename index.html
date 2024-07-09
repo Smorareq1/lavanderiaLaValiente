@@ -387,20 +387,26 @@
 
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white mb-4">Informacion Adicional</h4>
-                <form action="">
+                <form action="" id="informacionAdicionalForm">
                     <div class="form-group mb-2">
-                        <input type="text" class="form-control border-0" placeholder="Nombre" required="required" />
+                        <label>
+                            <input type="text" class="form-control border-0" placeholder="Nombre" required="required" id="NombreinformacionAdicional" />
+                        </label>
                     </div>
                     <div class="form-group mb-2">
-                        <input type="email" class="form-control border-0" placeholder="Correo" required="required" />
+                        <label>
+                            <input type="email" class="form-control border-0" placeholder="Correo" required="required" id="CorreoinformacionAdicional"/>
+                        </label>
                     </div>
 
                     <div class="form-group mb-2">
-                        <input type="text" class="form-control border-0" placeholder="Descripcion" required="required" />
+                        <label>
+                            <input type="text" class="form-control border-0" placeholder="Descripcion" required="required" id="DescripcioninformacionAdicional"/>
+                        </label>
                     </div>
 
                     <div>
-                        <button class="btn btn-lg btn-secondary btn-block border-0 footer-btn" type="submit">Enviar</button>
+                        <button class="btn btn-lg btn-secondary btn-block border-0 footer-btn" type="submit" id="btninformacionAdicional">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -421,14 +427,18 @@
 
 
 
-
+<!--Fonts icons-->
 <script src="https://kit.fontawesome.com/ba5831c99b.js" crossorigin="anonymous"></script>
 
+<!--Isotope, Jquery, bootstrap-->
 <script src="js/isotope.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<!--Email js-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+<!--Whatsapp-->
 <script type="text/javascript" src="js/floating-wpp.min.js"></script>
 <script type="text/javascript" src="js/floating-wpp.js"></script>
 
@@ -438,4 +448,5 @@
 <!-- Incluir archivo JS de Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
 
+<!--Main js-->
 <script src="js/script.js"></script>
