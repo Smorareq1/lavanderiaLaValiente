@@ -98,12 +98,23 @@ img {
 }
 
 .icons i:hover {
-    color: black;
+    color: var(--second-color);
 }
 
 .topBarphone {
     margin-right: 10px;
 }
+
+.topBarphone:hover {
+    color: var(--second-color);
+}
+
+.topBarNumber:hover a,
+.topBarNumber:hover span,
+.topBarNumber:hover .topBarphone {
+    color: var(--second-color);
+}
+
 /* TOP BAR end*/
 
 .nav-bar {
@@ -111,6 +122,11 @@ img {
     top: 0;
     z-index: 1000; /* Ajusta según sea necesario */
     width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.navbar-nav a:hover{
+    color: var(--second-color);
+
 }
 
 .scroll-up {
@@ -358,6 +374,29 @@ img {
 .footer-btn:hover{
     background-color: var(--body-color);
     color: var(--first-color);
+}
+
+.footerSocialMedia a:hover{
+    color: var(--second-color);
+}
+
+.footerEnlaces a{
+    color: white;
+}
+
+.footerEnlaces i:hover,
+.footerEnlaces a:hover{
+    color: var(--second-color);
+}
+
+.footer-contactanos-item a{
+    color: white;
+
+}
+
+.footer-contactanos-item:hover i,
+.footer-contactanos-item:hover a {
+    color: var(--second-color);
 }
 
 
