@@ -36,7 +36,8 @@
         phone: '50252073119',
         popupMessage: 'Buenos dias, como podemos ayudarle?',
         showPopup: true,
-        position: 'right'
+        position: 'right',
+        zIndex:1000
     });
 
 })(jQuery);
